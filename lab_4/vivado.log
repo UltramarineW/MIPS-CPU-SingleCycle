@@ -1,0 +1,111 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Aug 31 21:05:44 2023
+# Process ID: 30356
+# Current directory: D:/OneDrive - TSCN/桌面/lab_4/lab_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5656 D:\OneDrive - TSCN\桌面\lab_4\lab_4\lab_4.xpr
+# Log file: D:/OneDrive - TSCN/桌面/lab_4/lab_4/vivado.log
+# Journal file: D:/OneDrive - TSCN/桌面/lab_4/lab_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/Xilinx/vivado_project/lab2/lab_2' since last save.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.ip_user_files', nor could it be found using path 'E:/Xilinx/vivado_project/lab2/lab_2/lab_2.ip_user_files'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'lab_4.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1107.160 ; gain = 0.000
+update_compile_order -fileset sources_1
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/regfile.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/alu.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/npc.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/npc.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/data_container.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/data_container.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cu.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cu.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/pc.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/pc.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/mux.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/mux.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/lmd.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/lmd.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/ir.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/ir.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/imem.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/imem.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/dmem.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/dmem.v}}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/write_back_data_select.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/write_back_data_select.v}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cu.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/data_container.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/dmem.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/imem.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/ir.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/lmd.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/mux.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/pc.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/write_back_data_select.v}}] -no_script -reset -force -quiet
+remove_files  {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cu.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/data_container.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/dmem.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/imem.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/ir.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/lmd.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/mux.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/pc.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/write_back_data_select.v}}
+file delete -force {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cu.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/data_container.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/dmem.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/imem.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/ir.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/lmd.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/mux.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/pc.v} {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/write_back_data_select.v}
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/pc.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/pc.v}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/adder.v}}
+update_compile_order -fileset sources_1
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/mux.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/mux.v}}
+update_compile_order -fileset sources_1
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/extender.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/extender.v}}
+update_compile_order -fileset sources_1
+close [ open {D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/imem.v} w ]
+add_files {{D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/imem.v}}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a200tfbv676-2
+Top: cpu_top
+INFO: [Device 21-403] Loading part xc7a200tfbv676-2
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1648.812 ; gain = 251.629
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'cpu_top' [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:10]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file 'D:\OneDrive - TSCN\妗岄潰\lab_4\lab_4\lab4.data\cpu_trace'; please make sure the file is added to project and has read permission, ignoring [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:20]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu.v:23]
+INFO: [Synth 8-251]     ----PASS!!! [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:58]
+INFO: [Synth 8-251] Test end! [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:59]
+INFO: [Synth 8-251] ============================================================== [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:60]
+INFO: [Synth 8-251] -------------------------------------------------------------- [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:68]
+INFO: [Synth 8-251] Error!!! [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:69]
+INFO: [Synth 8-251]     Reference : PC = 0xxxxxxxxx, write back reg number = x, write back data = 0xxxxxxxxx [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:70]
+INFO: [Synth 8-251]     Error     : PC = 0xxxxxxxxx, write back reg number = x, write back data = 0xxxxxxxxx [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:71]
+INFO: [Synth 8-251] -------------------------------------------------------------- [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:72]
+INFO: [Synth 8-251] ============================================================== [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:73]
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Unable to determine number of words or word size in RAM. 
+	2: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'cpu_top' (2#1) [D:/OneDrive - TSCN/桌面/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v:10]
