@@ -1,4 +1,8 @@
-# 实验四测试环境说明
+# MIPS CPU Design
+
+本项目为哈尔滨工业大学处理器设计实践课程，设计非流水多周期CPU，利用MIPS指令集，将一个指令周期划分为IF、ID、EX、MEM、WB五个机器周期进行实现。
+
+具体实验文档位于[lab4_doc](https://hit-coa.gitlab.io/hit-cdp-lab/testcase/lab3.html)
 
 lab4文件夹为处理器设计与实践课程实验4-非流水线CPU实验测试环境。
 
