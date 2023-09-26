@@ -1,0 +1,9 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: Too many words specified in data file E:\HIT_Project\lab_4\lab_4\lab4.data\cpu_trace
+==============================================================
+Test begin!
+    ----PASS!!!
+Test end!
+==============================================================
+$finish called at time : 2660 ns : File "E:/HIT_Project/lab_4/lab_4/lab_4.srcs/sources_1/new/cpu_top.v" Line 64
